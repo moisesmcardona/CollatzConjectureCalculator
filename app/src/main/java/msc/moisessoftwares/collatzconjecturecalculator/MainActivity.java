@@ -62,8 +62,7 @@ public class MainActivity extends AppCompatActivity {
                             previousNumber = number;
                             if (number % 2 == 0) {
                                 number = number / 2;
-                                ResultSteps.add(previousNumber + " / 2 = " + number);
-
+                                ResultSteps.add(previousNumber + " ÷ 2 = " + number);
                             }
                             else {
                                 number = number * 3 + 1;
