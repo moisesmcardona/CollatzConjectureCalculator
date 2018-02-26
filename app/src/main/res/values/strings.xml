@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Collatz Conjecture Calculator</string>
+
+    <string name="enter_number">Enter a number below:</string>
+    <string name="calculate_button">Compute!</string>
+
+    <string name="about_app">Developed by: Moisés Cardona\nVersion 1.2\n©2016 &#8211; 2018 All Rights Reserved</string>
+    <string name="website">https://moisescardona.me</string>
+    <string name="donate_bitcoin">Donate Bitcoins to:</string>
+    <string name="bitcoin_address">1CmuQdbwwgM9TnyuqNLjk7eeVhCoFbuuM3</string>
+    <string name="bitcoin_footer">(touch to donate bitcoin with your mobile wallet)</string>
+    <string name="donate_gridcoin">Donate Gridcoins to:</string>
+    <string name="gridcoin_address">SAw6dAHTe2oZQTkLGCRjakB5pyHBu8hsAy</string>
+
+    <string name="admob_app_id"></string>
+    <string name="activity_main_ad_id"></string>
+    <string name="about_app_ad_id"></string>
+</resources>
