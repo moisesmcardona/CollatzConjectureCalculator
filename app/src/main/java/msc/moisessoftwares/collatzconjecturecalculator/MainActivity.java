@@ -3,6 +3,7 @@ package msc.moisessoftwares.collatzconjecturecalculator;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -87,7 +88,6 @@ public class MainActivity extends AppCompatActivity {
                     public void onClick(DialogInterface dialog, int id) {
                     }
                 });
-        // Create the AlertDialog object and return it
         AlertDialog notify = builder.create();
         notify.show();
     }
@@ -99,5 +99,9 @@ public class MainActivity extends AppCompatActivity {
     public void aboutApp(MenuItem item){
         Intent main = new Intent(MainActivity.this, AboutApp.class);
         startActivity(main);
+    }
+    public void privacyPolicy(MenuItem item){
+        Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://moisescardona.me/CollatzConjecturePrivacyPolicy"));
+        startActivity(browserIntent);
     }
 }

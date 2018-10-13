@@ -7,4 +7,10 @@
         android:orderInCategory="100"
         app:showAsAction="never"
         android:onClick="aboutApp"/>
+    <item
+        android:id="@+id/ProvacyPolicy"
+        android:title="Privacy Policy"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:onClick="privacyPolicy"/>
 </menu>
